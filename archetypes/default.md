@@ -11,14 +11,14 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 # 分类
 categories:
- -
+  - 
 # 标签
 tags:
   -
   -
 
 # 原文作者
-author:
+author: uzvg
 # 原文链接
 #link:
 # 图片链接，用在open graph和twitter卡片上
