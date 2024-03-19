@@ -599,7 +599,7 @@ params:
   readingProgress:
     # 是否显示读取进度条
     # If true, will display the read progress bar.
-    enable: false
+    enable: true
     # 进度条开始位置： left | right
     # Available values: left | right
     start: left

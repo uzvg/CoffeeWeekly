@@ -1,14 +1,14 @@
 ---
 # 文章标题
-title: "{{ replace .Name "-" " " | title }}"
+title: "Test"
 # 文章内容摘要
-description: "{{ .Name }}"
+description: "test"
 # 文章内容关键字
-keywords: "{{replace .Name "-" ","}}"
+keywords: "test"
 # 发表日期
-date: {{ .Date }}
+date: 2024-03-19T13:46:22+08:00
 # 最后修改日期
-lastmod: {{ .Date }}
+lastmod: 2024-03-19T13:46:22+08:00
 # 分类
 categories:
  -
@@ -34,7 +34,7 @@ author:
 # 注意：正常情况下文章中有H2-H4标题会自动生成目录，无需额外配置
 #toc: false
 # 绝对访问路径
-url: "{{ lower .Name }}.html"
+url: "test.html"
 # 开启文章置顶，数字越小越靠前
 #weight: 1
 # 开启数学公式渲染，可选值： mathjax, katex
