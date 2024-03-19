@@ -214,7 +214,7 @@ params:
     license: by-nc-sa
     # 可选配置： big | small
     # Available values: big | small
-    size: big
+    size: small
     # 侧边栏显示
     # Show in sidebar
     sidebar: true
@@ -292,7 +292,7 @@ params:
     rounded: true
     # 开启头像随鼠标转动动画
     # If true, the avatar will be rotated with the cursor.
-    rotated: false
+    rotated: true
   siteState: 
     # 是否在侧边栏显示文章、分类、标签信息
     # Posts / Categories / Tags in sidebar.
@@ -315,7 +315,7 @@ params:
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   socials: 
     social0: Github || https://github.com/uzvg || fab fa-github
-    #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
+    social1: E-Mail || mailto:1497911983@qq.com || fa fa-envelope
     #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
     Twitter: Twitter || https://twitter.com/jiang_uzvg || fab fa-twitter
@@ -388,7 +388,7 @@ params:
   footer:
     # 启动谷歌翻译功能
     # Enable google translate in footer
-    translate: true
+    translate: false
     # 站点开始年份，默认为当下时间的年份
     # Specify the year when the site was setup. 
     # If not defined, current year will be used.
@@ -491,7 +491,7 @@ params:
       enable: true
       # 页面访问统计插件，支持busuanzi, waline, leancloud
       # Page views counter plugin, support: busuanzi, waline, leancloud
-      plugin: busuanzi
+      plugin: waline
 
   # 文章底部的设置
   # Post footer settings
@@ -589,7 +589,7 @@ params:
     enable: true
     # 在侧边栏显示返回顶部按钮
     # Back to top in sidebar.
-    sidebar: false
+    sidebar: true
     # 在返回按钮上显示进度
     # Scroll percent label in b2t button.
     scrollpercent: true
@@ -599,7 +599,7 @@ params:
   readingProgress:
     # 是否显示读取进度条
     # If true, will display the read progress bar.
-    enable: true
+    enable: false
     # 进度条开始位置： left | right
     # Available values: left | right
     start: left
@@ -797,12 +797,12 @@ params:
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
     # Available values: livere | waline | utterances | artalk | giscus 
-    active: giscus
+    active: waline
     # 让用户自己选择使用评论插件留言
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
     # the visitor, otherwise use the `active` setting comment system.
-    storage: false
+    storage: true
     # TODO
     # Lazyload all comment systems.
     # lazyload: false
@@ -826,14 +826,14 @@ params:
   waline:
     placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
     sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
-    emoji: false
+    emoji: true
     imgUploader: false
-    wordLimit: 200
+    wordLimit: 400
     requiredMeta: ['nick', 'mail']
     reaction: true
     reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
     reactionTitle: "你认为这篇文章怎么样？"
-    serverURL: #<your waline server url>
+    serverURL: https://waline-comment-for-blog.vercel.app
 
   # Artalk 评论插件
   # 更多配置信息请参考：https://artalk.js.org
@@ -939,10 +939,10 @@ params:
     #laId: #<anaytics_id> 
     # 百度统计
     # Baidu Analytics
-    #baidu: #<anaytics_id>
+    baidu: 9c5ee188e0c48061639e25e20dc1fc79
     # 谷歌统计
     # Google Analytics
-    #google: #<anaytics_id>
+    google: G-SB31M9YBLC
     # 不蒜子统计
     # Show Views / Visitors of the website / page with busuanzi.
     # For more information: http://ibruce.info/2015/04/04/busuanzi/
@@ -1010,7 +1010,7 @@ params:
   # Gitter Support
   # For more information: https://gitter.im
   gitter:
-    enable: true
+    enable: false
     room: hugo-next/community
 
 

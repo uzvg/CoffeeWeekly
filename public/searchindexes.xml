@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>学习正则表达式</title><url>/%E5%AD%A6%E4%B9%A0%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html</url><categories><category>正则表达式</category></categories><tags><tag>regex</tag><tag>正则表达式</tag></tags><content type="html"><![CDATA[  零宽断言 零宽断言是正则表达式中的一种特殊的匹配模式，所谓零宽，指的是这两种断言都是零宽度的，也就是说它们本身不匹配任何字符，只是用来断言当前位置的前面或后面是否满足特定的条件；所谓断言，是说当它们在匹配字符串时，断言当前位置的前面或后面应该满足某种条件。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>学习正则表达式</title><url>/posts/%E5%AD%A6%E4%B9%A0%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url><categories><category>正则表达式</category></categories><tags><tag>regex</tag><tag>正则表达式</tag></tags><content type="html"><![CDATA[  零宽断言 零宽断言是正则表达式中的一种特殊的匹配模式，所谓零宽，指的是这两种断言都是零宽度的，也就是说它们本身不匹配任何字符，只是用来断言当前位置的前面或后面是否满足特定的条件；所谓断言，是说当它们在匹配字符串时，断言当前位置的前面或后面应该满足某种条件。
 根据匹配位置的不同，可分为先行断言跟后行断言，所谓先行断言，断言当前位置的后面应该满足某种条件；而后行断言，是当前位置的前面应该满足某种条件；又根据匹配条件的不同，可分为正向断言跟负向断言，所以正向，即肯定，负向，即否定。排列组合下来，总共有以下四种零宽断言的模式：
 正向先行断言（Positive Lookahead）：(?=pattern)，表示在当前位置的后面，模式 pattern会出现，如： 负向先行断言（Negative Lookahead）：(?!pattern)，表示在当前位置之后，模式 pattern 不会出现，如：
 正向后行断言（Positive Lookbehind）：(?&amp;lt;=pattern)，表示在当前位置之前，模式 pattern 会出现，如：
@@ -6,12 +6,4 @@
 总结：
 先行断言是从当前位置向后查找，用于约束当前位置之后的字符，而后行断言是从当前位置向前查找，用于约束当前位置之前的字符。 正向断言是约束条件应该出现，而负向断言是约束条件不应该出现。 先行断言和后行断言都是零宽断言，意味着它们只是做条件约束，而不会消耗字符串。 分组和引用 在正则表达式中，分组和引用，可以帮助我们匹配和操作字符串中的特定部分。其中，分组允许我们将多个模式组合在一起，并对它们进行操作，而引用则允许我们在同一正则表达式中引用先前匹配的内容。在正则表达式中，使用圆括号 () 可以创建一个分组，被创建的分组通常被视为一个整体。根据分组是否能被引用，分为捕获分组跟非捕获分组，其中，捕获分组又可分为数字分组跟命名分组。具体如下：
 数字捕获分组跟数字引用 利用 ()将 ha 捕获为分组1，并在之后用数字引用\1引用捕获到的第一个分组，匹配到的字符串，是两个连续的 ha 2. 命名捕获分组跟命名引用
-使用 (?&amp;lt;first&amp;gt;ha)命名捕获的方式将 ha 捕获为命名分组first …  ]]></content></entry><entry><title>About</title><url>/posts/about/</url><categories/><tags/><content type="html"> 大家好，我是姜源</content></entry><entry><title>Template</title><url>/template/</url><categories/><tags/><content type="html"></content></entry><entry><title>学习正则表达式</title><url>/posts/%E5%AD%A6%E4%B9%A0%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F1/</url><categories/><tags/><content type="html"><![CDATA[  零宽断言 零宽断言是正则表达式中的一种特殊的匹配模式，所谓零宽，指的是这两种断言都是零宽度的，也就是说它们本身不匹配任何字符，只是用来断言当前位置的前面或后面是否满足特定的条件；所谓断言，是说当它们在匹配字符串时，断言当前位置的前面或后面应该满足某种条件。
-根据匹配位置的不同，可分为先行断言跟后行断言，所谓先行断言，断言当前位置的后面应该满足某种条件；而后行断言，是当前位置的前面应该满足某种条件；又根据匹配条件的不同，可分为正向断言跟负向断言，所以正向，即肯定，负向，即否定。排列组合下来，总共有以下四种零宽断言的模式：
-正向先行断言（Positive Lookahead）：(?=pattern)，表示在当前位置的后面，模式 pattern会出现，如： 负向先行断言（Negative Lookahead）：(?!pattern)，表示在当前位置之后，模式 pattern 不会出现，如：
-正向后行断言（Positive Lookbehind）：(?&amp;lt;=pattern)，表示在当前位置之前，模式 pattern 会出现，如：
-负向后行断言（Negative Lookbehind）：(?&amp;lt;!pattern)，表示在当前位置之前，模式 pattern 不应该出现，如：
-总结：
-先行断言是从当前位置向后查找，用于约束当前位置之后的字符，而后行断言是从当前位置向前查找，用于约束当前位置之前的字符。 正向断言是约束条件应该出现，而负向断言是约束条件不应该出现。 先行断言和后行断言都是零宽断言，意味着它们只是做条件约束，而不会消耗字符串。 分组和引用 在正则表达式中，分组和引用，可以帮助我们匹配和操作字符串中的特定部分。其中，分组允许我们将多个模式组合在一起，并对它们进行操作，而引用则允许我们在同一正则表达式中引用先前匹配的内容。在正则表达式中，使用圆括号 () 可以创建一个分组，被创建的分组通常被视为一个整体。根据分组是否能被引用，分为捕获分组跟非捕获分组，其中，捕获分组又可分为数字分组跟命名分组。具体如下：
-数字捕获分组跟数字引用 利用 ()将 ha 捕获为分组1，并在之后用数字引用\1引用捕获到的第一个分组，匹配到的字符串，是两个连续的 ha 2. 命名捕获分组跟命名引用
-使用 (?&amp;lt;first&amp;gt;ha)命名捕获的方式将 ha 捕获为命名分组first …  ]]></content></entry></search>
+使用 (?&amp;lt;first&amp;gt;ha)命名捕获的方式将 ha 捕获为命名分组first …  ]]></content></entry><entry><title>About</title><url>/posts/about/</url><categories/><tags/><content type="html"> 大家好，我是姜源</content></entry><entry><title>Template</title><url>/template/</url><categories/><tags/><content type="html"></content></entry></search>
