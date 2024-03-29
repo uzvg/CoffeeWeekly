@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ArchLinux on Coffee Weekly</title>
+    <link>https://uzvg.site/tags/archlinux/</link>
+    <description>Recent content in ArchLinux on Coffee Weekly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 uzvg</copyright>
+    <lastBuildDate>Wed, 27 Mar 2024 14:56:40 +0000</lastBuildDate><atom:link href="https://uzvg.site/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArchLinux下Gnome桌面NVIDIA显卡开启Wayland</title>
+      <link>https://uzvg.site/posts/enable-wayland-on-nvidia-gpu/</link>
+      <pubDate>Wed, 27 Mar 2024 14:56:40 +0000</pubDate>
+      
+      <guid>https://uzvg.site/posts/enable-wayland-on-nvidia-gpu/</guid>
+      <description>ArchLinux下Gnome桌面NVIDIA显卡开启Wayland</description>
+      
+    </item>
+    
+  </channel>
+</rss>
