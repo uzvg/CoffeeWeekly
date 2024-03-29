@@ -38,8 +38,8 @@ buildFuture = false
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
-  toLower = false
+  threshold = 50
+  toLower = true
 
     [[related.indices]]
         name = "tags"

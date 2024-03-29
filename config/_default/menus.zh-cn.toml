@@ -37,7 +37,7 @@
 [[main]]
   pre = "resume"
   name = "Resume"
-  pageRef = "Resume"
+  pageRef = "2024-03-28-resume"
   weight = 50
 
 #[[main]]

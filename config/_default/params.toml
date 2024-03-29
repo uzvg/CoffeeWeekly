@@ -6,7 +6,7 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 # avocado, fire, ocean, forest, princess, neon, bloody, terminal, marvel, noir, autumn, congo, and slate
-colorScheme = "blewfish"
+colorScheme = "blowfish"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -31,7 +31,7 @@ defaultFeaturedImage = "/img/cccha.svg" # used as default for featured images in
 
 highlightCurrentMenuArea = true
 smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
@@ -97,7 +97,7 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
-  showSummary = true
+  showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = false
