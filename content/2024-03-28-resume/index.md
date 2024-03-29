@@ -17,6 +17,7 @@ showEdit: false
 showViews: false
 showLikes: false
 layoutBackgroundHeaderSpace: false
+slug: resume
 ---
 
 make some test
