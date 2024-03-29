@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  pre = "edit"
+  pre = "blog"
   name = "Posts"
   pageRef = "posts"
   weight = 10

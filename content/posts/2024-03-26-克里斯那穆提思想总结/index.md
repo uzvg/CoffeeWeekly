@@ -33,13 +33,27 @@ keywords:
 **Warning!** some warning message
 {{< /alert >}}
 
-github card
+{{< icon "github" >}}
+
+{{< icon "qq" >}}
+{{< icon "wechat" >}}
+{{< icon "mail" >}}
+{{< icon "resume" >}}
+{{< icon "twitter" >}}
+
+
+
+
 
 {{< github repo="uzvg/coffee-weekly" >}}
 
 link to another article
 
 {{< article link="/2024-03-28-resume/" >}}
+{{< article link="/docs/welcome/" >}}
+图标
+
+{{ partial "icon.html" "github" }}
 
 
 ## 什么是“思考”？

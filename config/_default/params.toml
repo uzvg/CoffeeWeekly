@@ -87,7 +87,7 @@ smartTOCHideUnfocusedChildren = false
   #showAuthorsBadges = true
   showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
-  sharingLinks = ["twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  sharingLinks = ["email","telegram", "twitter", "reddit", "pinterest", "facebook", "whatsapp"]
   showZenMode = false
   #xml = true
 
