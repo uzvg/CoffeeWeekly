@@ -29,8 +29,6 @@ keywords:
 **Info:** some info message
 {{< /alert >}}
 
-some text
-
 {{< alert "triangle-exclamation" >}}
 **Warning!** some warning message
 {{< /alert >}}
@@ -41,8 +39,12 @@ github card
 
 link to another article
 
+{{< article link="/2024-03-28-resume/" >}}
+
+
 ## 什么是“思考”？
 
+[trst](#克里斯那穆提是谁)哈哈哈
 ## 什么是“生命”？
 
 ## 创造力的源泉是什么？
