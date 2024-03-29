@@ -41,8 +41,6 @@ github card
 
 link to another article
 
-{{< article link="/posts/2024-03-27-archlinux下gnome桌面nvidia显卡开启wayland/" >}}
-
 ## 什么是“思考”？
 
 ## 什么是“生命”？
