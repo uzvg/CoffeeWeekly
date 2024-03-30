@@ -3,43 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://uzvg.site/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-28T08:02:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/posts/enable-wayland-on-nvidia-gpu/</loc>
+    <loc>http://localhost:1313/posts/why-i-write-blogs/</loc>
+    <lastmod>2024-03-28T08:02:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/enable-wayland-on-nvidia-gpu/</loc>
     <lastmod>2024-03-27T14:56:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/posts/philosophy-of-krishnamurti/</loc>
+    <loc>http://localhost:1313/posts/philosophy-of-krishnamurti/</loc>
     <lastmod>2024-03-28T07:45:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/posts/my-anwser-of-regex101-quiz/</loc>
+    <loc>http://localhost:1313/posts/my-anwser-of-regex101-quiz/</loc>
     <lastmod>2024-03-25T16:32:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-03-25T10:45:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/posts/learning-regex/</loc>
+    <loc>http://localhost:1313/posts/learning-regex/</loc>
     <lastmod>2024-03-25T09:50:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://uzvg.site/resume/</loc>
+    <loc>http://localhost:1313/resume/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

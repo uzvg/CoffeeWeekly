@@ -2,48 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Coffee Weekly</title>
-    <link>https://uzvg.site/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Coffee Weekly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 uzvg</copyright>
-    <lastBuildDate>Mon, 25 Mar 2024 10:45:29 +0000</lastBuildDate><atom:link href="https://uzvg.site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Mar 2024 10:45:29 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我为什么写博客？</title>
+      <link>http://localhost:1313/posts/why-i-write-blogs/</link>
+      <pubDate>Thu, 28 Mar 2024 08:02:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/why-i-write-blogs/</guid>
+      <description>好像每个写博客的作者或早或晚都会写篇博客</description>
+      
+    </item>
+    
     <item>
       <title>ArchLinux下Gnome桌面NVIDIA显卡开启Wayland</title>
-      <link>https://uzvg.site/posts/enable-wayland-on-nvidia-gpu/</link>
+      <link>http://localhost:1313/posts/enable-wayland-on-nvidia-gpu/</link>
       <pubDate>Wed, 27 Mar 2024 14:56:40 +0000</pubDate>
       
-      <guid>https://uzvg.site/posts/enable-wayland-on-nvidia-gpu/</guid>
+      <guid>http://localhost:1313/posts/enable-wayland-on-nvidia-gpu/</guid>
       <description>ArchLinux下Gnome桌面NVIDIA显卡开启Wayland</description>
       
     </item>
     
     <item>
       <title>克里斯那穆提思想总结</title>
-      <link>https://uzvg.site/posts/philosophy-of-krishnamurti/</link>
+      <link>http://localhost:1313/posts/philosophy-of-krishnamurti/</link>
       <pubDate>Mon, 25 Mar 2024 16:48:10 +0000</pubDate>
       
-      <guid>https://uzvg.site/posts/philosophy-of-krishnamurti/</guid>
+      <guid>http://localhost:1313/posts/philosophy-of-krishnamurti/</guid>
       <description>克里斯那穆提关于恐惧、我、生命、时间、恐惧的思想总结</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://uzvg.site/posts/philosophy-of-krishnamurti/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/philosophy-of-krishnamurti/featured.png" />
     </item>
     
     <item>
       <title>我的regex101答案</title>
-      <link>https://uzvg.site/posts/my-anwser-of-regex101-quiz/</link>
+      <link>http://localhost:1313/posts/my-anwser-of-regex101-quiz/</link>
       <pubDate>Mon, 25 Mar 2024 12:23:01 +0000</pubDate>
       
-      <guid>https://uzvg.site/posts/my-anwser-of-regex101-quiz/</guid>
+      <guid>http://localhost:1313/posts/my-anwser-of-regex101-quiz/</guid>
       <description>regex101 quiz 1-8,12题的答案</description>
       
     </item>
     
     <item>
       <title>学习正则表达式</title>
-      <link>https://uzvg.site/posts/learning-regex/</link>
+      <link>http://localhost:1313/posts/learning-regex/</link>
       <pubDate>Mon, 25 Mar 2024 04:59:29 +0000</pubDate>
       
-      <guid>https://uzvg.site/posts/learning-regex/</guid>
+      <guid>http://localhost:1313/posts/learning-regex/</guid>
       <description>学习正则表达式的相关网站
 正则表达式的难点</description>
       
