@@ -4,7 +4,13 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-28T08:02:02+00:00</lastmod>
+    <lastmod>2024-03-30T10:06:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/resume/</loc>
+    <lastmod>2024-03-30T10:06:18+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -41,11 +47,6 @@
   <url>
     <loc>http://localhost:1313/posts/learning-regex/</loc>
     <lastmod>2024-03-25T09:50:14+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/resume/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
