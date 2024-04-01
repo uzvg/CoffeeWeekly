@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"frontMatter.dashboard.openOnStart": true,
+		"editor.fontFamily": "mono, 'monospace', monospace",
+		"editor.renderWhitespace": "all"
+	}
+}
