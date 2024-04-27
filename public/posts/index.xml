@@ -9,6 +9,26 @@
     <copyright>© 2024 uzvg</copyright>
     <lastBuildDate>Mon, 25 Mar 2024 10:45:29 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>如何在Shell中处理命令行选项？</title>
+      <link>http://localhost:1313/posts/options-in-shell-script/</link>
+      <pubDate>Mon, 01 Apr 2024 08:32:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/options-in-shell-script/</guid>
+      <description>在Shell中处理命令行选项的方法</description>
+      
+    </item>
+    
+    <item>
+      <title>Shell函数</title>
+      <link>http://localhost:1313/posts/shell%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Sun, 31 Mar 2024 16:04:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/shell%E5%87%BD%E6%95%B0/</guid>
+      <description>return 语句 # return的作用并非返回程序的</description>
+      
+    </item>
+    
+    <item>
       <title>$*,$@,傻傻分不清楚？</title>
       <link>http://localhost:1313/posts/the-difference-of-variable/</link>
       <pubDate>Sun, 31 Mar 2024 15:24:42 +0000</pubDate>

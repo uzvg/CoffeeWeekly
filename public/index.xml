@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 uzvg</copyright>
-    <lastBuildDate>Sun, 31 Mar 2024 15:24:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 08:32:53 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在Shell中处理命令行选项？</title>
+      <link>http://localhost:1313/posts/options-in-shell-script/</link>
+      <pubDate>Mon, 01 Apr 2024 08:32:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/options-in-shell-script/</guid>
+      <description>在Shell中处理命令行选项的方法</description>
+      
+    </item>
+    
+    <item>
+      <title>Shell函数</title>
+      <link>http://localhost:1313/posts/shell%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Sun, 31 Mar 2024 16:04:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/shell%E5%87%BD%E6%95%B0/</guid>
+      <description>return 语句 # return的作用并非返回程序的</description>
+      
+    </item>
+    
     <item>
       <title>$*,$@,傻傻分不清楚？</title>
       <link>http://localhost:1313/posts/the-difference-of-variable/</link>
@@ -34,7 +54,7 @@
       <pubDate>Thu, 28 Mar 2024 08:02:02 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/why-i-write-blogs/</guid>
-      <description>好像每个写博客的作者或早或晚都会写篇博客</description>
+      <description>写作跟博客 # 对我自己而言，写作跟博客其实</description>
       
     </item>
     
